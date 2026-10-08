@@ -1,0 +1,140 @@
+body {
+    background-color: #863C39;
+    margin: auto;
+}
+
+h1 {
+    font-family: "Fascinate", serif;
+    font-size: 60px;
+    text-align: center;
+    color: #FFF7F3;
+}
+
+header h2 {
+    color: #FFF7F3;
+    font-family: "Fascinate", serif;
+    font-size: 28px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#title {
+    font-size: 28px;
+    color: #6B1317;
+}
+
+h2 {
+    color: #6B1317;
+    font-family: "Fascinate", serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+header {
+    background-color: #6B1317;
+    color: #FFF7F3;
+    padding: 20px;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    background-color: #FFF7F3;
+    padding: 20px;
+    border-image-slice: 70 75 70 75;
+    border-image-width: 60px;
+    border-image-repeat: round;
+    border-image-source: url(images/trim.png);
+    border-style: solid;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+}
+
+.container h2 {
+    flex: 1;
+}
+
+.container nav {
+    flex: 2;
+    text-align: left;
+}
+
+nav ul {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+nav ul li {
+    margin-bottom: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:#6B1317;
+}
+
+p {
+    color: #6B1317;
+}
+
+footer {
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    background-color: #6B1317;
+    color: #FFF7F3;
+    text-align: center;
+    padding: 80px 0 80px 0;
+}
+
+footer p, footer a {
+    color: #FFF7F3;
+}
+
+
+
+@media (min-width: 600px) {
+
+    main {
+        width: 85%;
+    }
+
+}
+
+
+
+@media (min-width: 1024px) {
+
+    body {
+        margin: auto;
+        max-width: 1200px;
+    }
+
+    main {
+    display: flex;
+    flex-direction: row;
+    width: 85%;
+    max-width: 1200px;
+    padding: 60px;
+    }
+
+    .container {
+        flex-direction: column;
+        flex: 1;
+        margin: 20px;
+    }
+
+    nav ul {
+        margin-top: 0;
+    }
+}
