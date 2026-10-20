@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annabelle's Cake Delivery!</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Annabelle's Cake Delivery</h1>
+
+    </header>
+    
+    <main>
+
+        <h2>Annabelle the chicken has a delivery to make! Her friend's birthday has arrived, and all that's left to do is finish baking and decorating the cake. Help Annabelle with completing her work and delivering on time!</h2>
+        <p id="caption"><i>Fill in the blanks with your own words, or select from a dropdown, to complete the story.</i></p>
+
+        <form action="processor.php" method="POST">
+
+            <section id="shortform1">
+
+                <label for="numbers">Pick a number:</label>
+                <select id="numbers">
+                    <option>---</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+
+                <label for="foodnoun">What is she pulling out of the fridge?</label>
+                <input type="text" id="foodnoun" required>
+
+                <label for="verb1">Provide a verb:</label>
+                <input type="text" id="verb1" required>
+
+                <label for="adjective1">Give an adjective:</label>
+                <input type="text" id="adjective1" required>
+
+                <label for="verb2">Choose a verb:</label>
+                <input type="text" id="verb2" required>
+
+                <label for="containertype">Quick--the first container you think of:</label>
+                <input type="text" id="containertype" required>
+
+                <label for="nounsmell">What's something that smells...?</label>
+                <input type="text" id="nounsmell" required>
+
+            </section>
+            
+            <section id="shortform2">
+
+                <label for="adjective2">Choose an adjective:</label>
+                <input type="text" id="adjective2" required>
+
+                <label for="color1">Pick a color:</label>
+                <input type="text" id="color1" required>
+
+                <label for="color2">Pick a new color:</label>
+                <input type="text" id="color2" required>
+
+                <label for="adjective3">Yet another adjective:</label>
+                <input type="text" id="adjective3" required>
+
+                <label for="name">Share a name, any name:</label>
+                <input type="text" id="name" required>
+
+                <label for="animal">Can you think of an animal?</label>
+                <input type="text" id="animal" required>
+
+                <label for="adjective4">Last one! Pick just one more adjective:</label>
+                <input type="text" id="adjective4" required>
+
+            </section>
+            
+            <input type="submit" name="submit" id="send-form" value="Help Annabelle!">
+        </form>
+
+        <div id="madlib">
+            <p>ANNABELLE OPENED HER FRIDGE and pulled out ________ ________. She ________ them into the ________ mixing bowl on the counter, and gave it a good mix. Soon, the oven dinged. Annabelle ________ the batter into a greased ________, and popped it into the oven. It wasn't long before there was an aroma she couldn't resist, like ________, and she hurried into the kitchen to pull out the ________ to cool before decorating. The cake appeared ________, and once it was cool, Annabelle began to spread ________ buttercream and ________ frosting over the cake until it looked ________. Quickly, Annabelle packed up the cake and headed to her friend ________ the ________'s house. She rang the doorbell and ________ answered.</p>
+
+        <p>"Oh, Annabelle! they exclaimed. "Thank you for this cake, it looks ________!"</p>
+        </div>
+
+    </main>
+    
+</body>
+
+</html>
