@@ -24,6 +24,8 @@
         const animal = document.querySelector('#animal').value;
         const adj4 = document.querySelector('#adj4').value;
 
+        const divTag = document.querySelector('div');
+
         let myText;
 
         if( number == ''){
@@ -83,12 +85,36 @@
             document.querySelector('#adj4').focus();
         }
         else {
-            myText = `ANNABELLE OPENED HER FRIDGE and pulled out ${number} ${foodnoun}. She ${verb1} them into the ${adj1} mixing bowl on the counter, and gave it a good mix. Soon, the oven dinged. Annabelle ${verb2} the batter into a greased ${containertype}, and popped it into the oven. It wasn't long before there was an aroma she couldn't resist, like ${nounsmell}, and she hurried into the kitchen to pull out the ${containertype} to cool before decorating. The cake appeared ${adj2}, and once it was cool, Annabelle began to spread ${color1} buttercream and ${color2} frosting over the cake until it looked ${adj3} . Quickly, Annabelle packed up the cake and headed to her friend ${name} the ${animal}'s house. She rang the doorbell and ${name} answered. "Oh, Annabelle! they exclaimed. "Thank you for this cake, it looks ${adj4}!"`;
+            myText = `<p>ANNABELLE OPENED HER FRIDGE and pulled out ${number} ${foodnoun}. She ${verb1} them into the ${adj1} mixing bowl on the counter, and gave it a good mix. Soon, the oven dinged. Annabelle ${verb2} the batter into a greased ${containertype}, and popped it into the oven. It wasn't long before there was an aroma she couldn't resist, like ${nounsmell}, and she hurried into the kitchen to pull out the ${containertype} to cool before decorating. The cake appeared ${adj2}, and once it was cool, Annabelle began to spread ${color1} buttercream and ${color2} frosting over the cake until it looked ${adj3}. Quickly, Annabelle packed up the cake and headed to her friend ${name} the ${animal}'s house. She rang the doorbell and ${name} answered.</p><p>"Oh, Annabelle!" they exclaimed. "Thank you for this cake, it looks ${adj4}!"</p><br><img src="images/madlib2.jpg" alt="Annabelle presenting the cake" width="1000" height="600">`;
+
+            document.querySelector('#number').value = '';
+            document.querySelector('#foodnoun').value = '';
+            document.querySelector('#verb1').value = '';
+            document.querySelector('#adj1').value = '';
+            document.querySelector('#verb2').value = '';
+            document.querySelector('#containertype').value = '';
+            document.querySelector('#nounsmell').value = '';
+            document.querySelector('#adj2').value = '';
+            document.querySelector('#color1').value = '';
+            document.querySelector('#color2').value = '';
+            document.querySelector('#adj3').value = '';
+            document.querySelector('#name').value = '';
+            document.querySelector('#animal').value = '';
+            document.querySelector('#adj4').value = '';
 
         }
 
         madlib.innerHTML = myText;
+
     } );
+
+    /* myForm.addEventListener('submit', function(){
+
+        const divTag = document.querySelector('div');
+
+        divTag.innerHTML = '<img src="images/madlib2.jpg" alt="Annabelle presenting the cake" width="1000" height="600">';
+
+    } ); */
 
 } )();
 

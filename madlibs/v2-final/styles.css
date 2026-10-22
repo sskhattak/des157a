@@ -17,6 +17,7 @@ main {
     margin: auto;
     background-color: #FDFFF8;
     padding: 20px 200px 20px 200px;
+    border: double 6px #272625;
 }
 
 form {
@@ -107,16 +108,30 @@ select {
     border: solid 3px #272625;
     border-radius: 15px;
     grid-area: c;
+    transition: ease-in-out 500ms;
 }
 
 #send-form:hover {
     background-color: #f0ec9d;
-    transition: 500ms;
 }
 
 #madlib {
     font-family: "Balsamiq Sans", sans-serif;
     font-size: 18px;
     display: block;
-    margin: 10px;
+    margin: 50px;
+}
+
+img {
+    position: absolute;
+    right: 75px;
+}
+
+#madlib img {
+    display: none;
+}
+
+#footer {
+    display: block;
+    height: 100px;
 }
