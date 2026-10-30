@@ -5,6 +5,7 @@
     const myForm = document.querySelector('#myform');
     const madlib = document.querySelector('#madlib');
 
+
     myForm.addEventListener('submit', function(event){
 
         event.preventDefault();
@@ -23,8 +24,6 @@
         const name = document.querySelector('#name').value;
         const animal = document.querySelector('#animal').value;
         const adj4 = document.querySelector('#adj4').value;
-
-        const divTag = document.querySelector('div');
 
         let myText;
 
@@ -85,7 +84,7 @@
             document.querySelector('#adj4').focus();
         }
         else {
-            myText = `<p>ANNABELLE OPENED HER FRIDGE and pulled out ${number} ${foodnoun}. She ${verb1} them into the ${adj1} mixing bowl on the counter, and gave it a good mix. Soon, the oven dinged. Annabelle ${verb2} the batter into a greased ${containertype}, and popped it into the oven. It wasn't long before there was an aroma she couldn't resist, like ${nounsmell}, and she hurried into the kitchen to pull out the ${containertype} to cool before decorating. The cake appeared ${adj2}, and once it was cool, Annabelle began to spread ${color1} buttercream and ${color2} frosting over the cake until it looked ${adj3}. Quickly, Annabelle packed up the cake and headed to her friend ${name} the ${animal}'s house. She rang the doorbell and ${name} answered.</p><p>"Oh, Annabelle!" they exclaimed. "Thank you for this cake, it looks ${adj4}!"</p><br><img src="images/madlib2.jpg" alt="Annabelle presenting the cake" width="1000" height="600">`;
+            myText = `<p>Annabelle opened her fridge and pulled out <strong><u>${number}</u></strong> <strong><u>${foodnoun}</u></strong>. She <strong><u>${verb1}</u></strong> them into the <strong><u>${adj1}</u></strong> mixing bowl on the counter, and gave it a good mix. Soon, the oven dinged. Annabelle <strong><u>${verb2}</u></strong> the batter into a greased <strong><u>${containertype}</u></strong>, and popped it into the oven. It wasn't long before there was an aroma she couldn't resist, like <strong><u>${nounsmell}</u></strong>, and she hurried into the kitchen to pull out the <strong><u>${containertype}</u></strong> to cool before decorating. The cake appeared <strong><u>${adj2}</u></strong>, and once it was cool, Annabelle began to spread <strong><u>${color1}</u></strong> buttercream and <strong><u>${color2}</u></strong> frosting over the cake until it looked <strong><u>${adj3}</u></strong>. Quickly, Annabelle packed up the cake and headed to her friend <strong><u>${name}</u></strong> the <strong><u>${animal}</u></strong>'s house. She rang the doorbell and <strong><u>${name}</u></strong> answered.</p><p>"Oh, Annabelle!" they exclaimed. "Thank you for this cake, it looks <strong><u>${adj4}</u></strong>!"</p>`;
 
             document.querySelector('#number').value = '';
             document.querySelector('#foodnoun').value = '';
@@ -107,14 +106,6 @@
         madlib.innerHTML = myText;
 
     } );
-
-    /* myForm.addEventListener('submit', function(){
-
-        const divTag = document.querySelector('div');
-
-        divTag.innerHTML = '<img src="images/madlib2.jpg" alt="Annabelle presenting the cake" width="1000" height="600">';
-
-    } ); */
 
 } )();
 
