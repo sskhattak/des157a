@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Annabelle's Cake Delivery!</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Gorditas:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+
+        <h1>Annabelle's Cake Delivery</h1>
+
+    </header>
+
+    <img src="images/madlib1.png" alt="Annabelle holding a whisk" width="300" height="300">
+    
+    <main>
+
+        <h2>Annabelle the chicken has a delivery to make, help her with completing her work and delivering on time!</h2>
+        <p id="caption"><i>Fill in the blanks with your own words to complete the story.</i></p>
+
+        <article id="madlib"></article>
+
+        <form id="myform">
+            
+            <section id="shortform1">
+
+                <label for="number">1. Pick a number above 1:</label>
+                <input type="number" id="number" min="2" max="9999" required>
+
+                <label for="foodnoun">2. Your favorite item in the fridge? (plural)</label>
+                <input type="text" id="foodnoun" required>
+
+                <label for="verb1">3. Provide a past-tense verb:</label>
+                <input type="text" id="verb1" required>
+
+                <label for="adj1">4. Give an adjective:</label>
+                <input type="text" id="adj1" required>
+
+                <label for="verb2">5. Choose a past-tense verb:</label>
+                <input type="text" id="verb2" required>
+
+                <label for="containertype">6. Quick--the first container you think of:</label>
+                <input type="text" id="containertype" required>
+
+                <label for="nounsmell">7. What's something that smells...?</label>
+                <input type="text" id="nounsmell" required>
+
+            </section>
+            
+            <section id="shortform2">
+
+                <label for="adj2">8. Choose an adjective:</label>
+                <input type="text" id="adj2" required>
+
+                <label for="color1">9. Pick a color:</label>
+                <input type="text" id="color1" required>
+
+                <label for="color2">10. Pick a new color:</label>
+                <input type="text" id="color2" required>
+
+                <label for="adj3">11. Yet another adjective:</label>
+                <input type="text" id="adj3" required>
+
+                <label for="name">12. Share a name, any name:</label>
+                <input type="text" id="name" required>
+
+                <label for="animal">13. Can you think of an animal?</label>
+                <input type="text" id="animal" required>
+
+                <label for="adj4">14. Last one! Pick just one more adjective:</label>
+                <input type="text" id="adj4" required>
+
+            </section>
+            
+            <input type="submit" id="send-form" value="Help Annabelle!">
+        </form>
+
+    </main>
+
+    <footer>
+        <div id="footer"></div>
+    </footer>
+    
+</body>
+
+</html>

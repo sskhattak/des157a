@@ -1,0 +1,138 @@
+body {
+    background: #87AF75;
+    background: linear-gradient(180deg,rgba(135, 175, 117, 1) 15%, rgba(212, 203, 133, 1) 67%, rgba(250, 255, 191, 1) 100%);
+    margin: auto;
+}
+
+header {
+    margin: auto;
+    padding: 40px 0 0 0;
+    height: 175px;
+    max-width: 800px;
+    background: #87AF75;
+}
+
+main {
+    display: block;
+    max-width: 600px;
+    margin: auto;
+    background-color: #FDFFF8;
+    padding: 20px 200px 20px 200px;
+    border: double 6px #272625;
+    border-radius: 20px;
+}
+
+form {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 500px 500px;
+    grid-template-areas:
+    "a b"
+    "c c";
+    justify-items: center;
+}
+
+h1 {
+    font-family: "Gorditas", sans-serif;
+    font-size: 48px;
+    color: #FDFFF8;
+    text-align: right;
+}
+
+h2 {
+    font-family: "Balsamiq Sans", sans-serif;
+    color: #272625;
+    text-align: center;
+}
+
+p {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 18px;
+    line-height: 28px;
+    color: #272625;
+}
+
+#caption {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 16px;
+    color: #272625;
+    text-align: center;
+}
+
+input, label {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 18px;
+    display: block;
+    margin: 10px;
+    margin-top: 5px;
+}
+
+input {
+    border: 2px solid #87AF75;
+    border-radius: 5px;
+    padding: 5px;
+    width: 250px;
+}
+
+input[type="text"]:focus, input[type="number"]:focus, select[type="text"]:focus {
+    border: 1px solid #D6D9DC;
+    outline: solid #87AF75;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+label {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+input[type="number"] {
+    width: 75px;
+    text-align: center;
+}
+
+#shortform1 {
+    grid-area: a;
+}
+
+#shortform2 {
+    grid-area: b;
+}
+
+#send-form {
+    background-color: #87AF75;
+    color: #272625;
+    margin: 20px;
+    padding: 10px 0 10px 0;
+    width: 250px;
+    height: 60px;
+    font-size: 20px;
+    border: solid 3px #272625;
+    border-radius: 15px;
+    grid-area: c;
+    transition: ease-in-out 500ms;
+}
+
+#send-form:hover {
+    background-color: #f0ec9d;
+}
+
+#madlib {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 18px;
+    display: block;
+    margin: 25px;
+    padding: 0 25px 0 25px;
+    border: dashed 3px #87AF75;
+    border-radius: 15px;
+}
+
+img {
+    position: absolute;
+    top: 5px;
+    right: 65%;
+}
+
+#footer {
+    display: block;
+    height: 100px;
+}

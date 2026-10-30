@@ -14,12 +14,11 @@ header {
 
 main {
     display: block;
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
     background-color: #FDFFF8;
     padding: 20px 200px 20px 200px;
     border: double 6px #272625;
-    border-radius: 20px;
 }
 
 form {
@@ -64,17 +63,14 @@ input, label {
     font-size: 18px;
     display: block;
     margin: 10px;
-    margin-top: 5px;
 }
 
 input {
     border: 2px solid #87AF75;
     border-radius: 5px;
-    padding: 5px;
-    width: 250px;
 }
 
-input[type="text"]:focus, input[type="number"]:focus, select[type="text"]:focus {
+input[type="text"]:focus, select[type="text"]:focus {
     border: 1px solid #D6D9DC;
     outline: solid #87AF75;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -85,9 +81,14 @@ label {
     margin-bottom: 0;
 }
 
-input[type="number"] {
-    width: 75px;
+select {
+    font-family: "Balsamiq Sans", sans-serif;
+    font-size: 18px;
     text-align: center;
+    margin: 0 10px 0 10px;
+    width: 80px;
+    border: 2px solid #87AF75;
+    border-radius: 5px;
 }
 
 #shortform1 {
@@ -121,19 +122,12 @@ input[type="number"] {
     font-size: 18px;
     display: block;
     margin: 25px;
-    padding: 0 25px 0 25px;
-    border: dashed 3px #87AF75;
-    border-radius: 15px;
 }
 
 img {
     position: absolute;
     top: 5px;
     right: 65%;
-}
-
-#madlib img {
-    display: none;
 }
 
 #footer {
