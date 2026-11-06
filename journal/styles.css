@@ -38,8 +38,8 @@ header {
 }
 
 main {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     margin: auto;
     background-color: #FFF7F3;
     padding: 20px;
@@ -50,7 +50,7 @@ main {
     border-style: solid;
 }
 
-.container {
+/* .container {
     display: flex;
     margin: auto;
     margin-top: 50px;
@@ -65,10 +65,10 @@ main {
     flex: 2;
     text-align: left;
 }
-
+ */
 nav ul {
     font-family: "Montserrat", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     list-style-type: none;
     padding-left: 20px;
 }
@@ -83,7 +83,9 @@ nav ul li a {
 }
 
 p {
+    font-family: "Montserrat", sans-serif;
     color: #6B1317;
+    font-size: 18px;
 }
 
 footer {
@@ -121,18 +123,18 @@ footer p, footer a {
     }
 
     main {
-    display: flex;
-    flex-direction: row;
+    /* display: flex;
+    flex-direction: row; */
     width: 85%;
     max-width: 1200px;
     padding: 60px;
     }
 
-    .container {
+    /* .container {
         flex-direction: column;
         flex: 1;
         margin: 20px;
-    }
+    } */
 
     nav ul {
         margin-top: 0;

@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(88, 19, 29);
+}
+
+main {
+    max-width: 700px;
+    margin: auto;
+}
+
+h1, h2 {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    color:rgb(237, 248, 172);
+}
+
+h2 {
+    font-size: 20px;
+}
+
+#container {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#bgpears {
+    position: relative;
+    top: 0;
+    left: 0;
+    border: dashed 4px rgb(237, 248, 172);
+}
+
+#pear1 {
+    position: absolute;
+    z-index: 2;
+    top: 18px;
+    right: 237px;
+    transition: 500ms;
+}
+
+#pear1:hover {
+    transform: scale(3.5);
+    filter: blur(2px);
+}
+
+#pear2 {
+    position: absolute;
+    top: 147px;
+    right: 92px;
+    transition: 300ms ease-out;
+}
+
+#pear2:hover {
+    opacity: 0;
+    transition: 300ms ease-in;
+}
+
+#pear2blue {
+    position: absolute;
+    top: 147px;
+    right: 92px;
+}
+
+#pear3 {
+    position: absolute;
+    top: 302px;
+    right: 112px;
+}
+
+#pear4 {
+    position: absolute;
+    z-index: 1;
+    top: 289px;
+    right: 278px;
+    transition: 1s ease-out;
+}
+
+#pear4:hover {
+    opacity: 50%;
+    transition: 1s ease-in;
+}
+
+#pear4face {
+    position: absolute;
+    top: 289px;
+    right: 278px;
+}
+
+#pear5 {
+    position: absolute;
+    top: 267px;
+    left: 148px;
+}
