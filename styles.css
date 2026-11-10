@@ -22,7 +22,6 @@ h2 {
     color: #6B1317;
     font-family: "Fascinate", serif;
     font-size: 20px;
-    margin-bottom: 10px;
 }
 
 header {
@@ -38,6 +37,8 @@ main {
     flex-direction: column;
     margin: auto;
     padding: 20px;
+    padding-top: 75px;
+    padding-bottom: 75px;
     border-image-slice: 70 75 70 75;
     border-image-width: 60px;
     border-image-repeat: round;
@@ -48,7 +49,6 @@ main {
 .container {
     display: flex;
     margin: auto;
-    margin-top: 50px;
     width: 90%;
 }
 
@@ -101,7 +101,7 @@ footer p, footer a {
 @media (min-width: 600px) {
 
     main {
-        width: 85%;
+        max-width: 85%;
     }
 
 }
@@ -118,15 +118,20 @@ footer p, footer a {
     main {
     display: flex;
     flex-direction: row;
-    width: 85%;
+    max-width: 85%;
     max-width: 1200px;
-    padding: 60px;
+    padding: 75px;
+    padding-bottom: 150px;
     }
 
     .container {
         flex-direction: column;
         flex: 1;
         margin: 20px;
+    }
+
+    .container h2 {
+        flex: none;
     }
 
     nav ul {

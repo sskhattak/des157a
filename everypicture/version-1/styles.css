@@ -1,0 +1,235 @@
+body {
+    background-color: rgb(15, 13, 13);
+}
+
+header {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(15, 13, 13);
+}
+
+h1 {
+    font-family: "UnifrakturCook", serif;
+    color: antiquewhite;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 { 
+    font-family: "Cuprum", sans-serif;
+    color: antiquewhite;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+
+p {
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    color: antiquewhite;
+}
+
+img {
+    display: block;
+}
+
+#oilpzoom {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#oilzoom {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#infobox {
+    display: block;
+    background-color: aliceblue;
+    color: red;
+    width: 265px;
+    padding: 20px;
+    border: solid 3px black;
+    border-radius: 5px;
+    position: absolute;
+    top: 675px;
+    left: 100px;
+}
+
+#entry {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#entryimg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#entrytext {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    color: antiquewhite;
+    max-width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+#entrybtn {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    background-color: rgb(15, 13, 13);
+    color: antiquewhite;
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 475px;
+    left: 715px;
+    transition: 350ms ease-in;
+}
+
+#entrybtn:hover {
+    background-color: antiquewhite;
+    color: rgb(15, 13, 13);
+    transition: 350ms ease-out;
+}
+
+/* bedroom layout */
+
+#bdrm {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#gliderhov {
+    position: absolute;
+    top: 0;
+    left: 25px;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#gliderhov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
+
+#nightstandhov {
+    position: absolute;
+    top: 0;
+    left: 705px;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#nightstandhov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
+
+#oilphov {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#oilphov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
+
+/* nightstand stuff */
+
+#nightzoom {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#nightstandzoom {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#platehov {
+    position: absolute;
+    top: 239px;
+    left: 65px;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#platehov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
+
+#shakershov {
+    position: absolute;
+    top: 550px;
+    left: 448px;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#shakershov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
+
+#matcheshov {
+    position: absolute;
+    top: 173px;
+    left: 305px;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#matcheshov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
+
+#saucerhov {
+    position: absolute;
+    top: 151px;
+    left: 574px;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#saucerhov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
+
+#stereohov {
+    position: absolute;
+    top: 122px;
+    left: 232px;
+    opacity: 1;
+    transition: 300ms ease;
+}
+
+#stereohov:hover {
+    transition: 300ms ease;
+    opacity: 0;
+}
