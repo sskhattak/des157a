@@ -1,0 +1,396 @@
+body {
+    background-color: rgb(15, 13, 13);
+}
+
+header {
+    display: block;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+}
+
+main {
+    max-width: 1200px;
+    margin: auto;
+    justify-content: center;
+    background-color: rgb(15, 13, 13);
+}
+
+h1 {
+    font-family: "UnifrakturCook", serif;
+    color: rgb(219, 194, 161);
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+h2 { 
+    font-family: "Cuprum", sans-serif;
+    color: rgb(219, 194, 161);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+
+h3 {
+    margin: 5px;
+}
+
+p {
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    margin: 5px;
+    color: rgb(15, 13, 13);
+}
+
+img {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+.infobox {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    display: block;
+    max-width: 300px;
+    padding: 16px;
+    background-color: antiquewhite;
+    color: rgb(15, 13, 13);
+    border: double 5px black;
+    border-radius: 16px;
+}
+
+.infobox p {
+    margin-bottom: 50px;
+}
+
+.exitbox {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(219, 194, 161);
+    color: rgb(31, 26, 24);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 16px;
+    left: 16px;
+    transition: 250ms ease;
+}
+
+.exitbox:hover {
+    background-color: rgb(31, 26, 24);
+    color: rgb(219, 194, 161);
+    transition: 250ms ease;
+}
+
+#nightstandbtn, #paintingbtn {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(219, 194, 161);
+    color: rgb(31, 26, 24);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 16px;
+    right: 16px;
+    transition: 250ms ease;
+}
+
+#nightstandbtn:hover, #paintingbtn:hover {
+    background-color: rgb(31, 26, 24);
+    color: rgb(219, 194, 161);
+    transition: 250ms ease;
+}
+
+/* entry */
+
+#scene1 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#entry {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#entrytext {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    color: antiquewhite;
+    max-width: 300px;
+    position: absolute;
+    top: 170px;
+    left: 50px;
+}
+
+#entrybtn {
+    font-family: "EB Garamond", serif;
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(31, 26, 24);
+    color: rgb(219, 194, 161);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 475px;
+    left: 715px;
+    transition: 250ms ease;
+}
+
+#entrybtn:hover {
+    background-color: rgb(219, 194, 161);
+    color: rgb(31, 26, 24);
+    transition: 250ms ease;
+}
+
+/* bedroom */
+
+#scene2 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#glider {
+    position: absolute;
+    top: 47px;
+    left: 23px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#glider:hover {
+    top: 47px;
+    left:23px;
+    opacity: 1;
+}
+
+#nightstand {
+    position: absolute;
+    top: 192px;
+    left: 710px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#nightstand:hover {
+    top: 192px;
+    left: 710px;
+    opacity: 1;
+}
+
+#painting {
+    position: absolute;
+    top: 269px;
+    left: 25px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#painting:hover {
+    top: 269px;
+    left: 25px;
+    opacity: 1;
+}
+
+#gliderhov .infobox {
+    position: absolute;
+    top: 150px;
+    left: 765px;
+}
+
+#nightstandhov .infobox {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+}
+
+#paintinghov .infobox {
+    position: absolute;
+    top: 175px;
+    left: 345px;
+}
+
+#returnbtn {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(219, 194, 161);
+    color: rgb(31, 26, 24);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transition: 250ms ease;
+}
+
+#returnbtn:hover {
+    background-color: rgb(31, 26, 24);
+    color: rgb(219, 194, 161);
+    transition: 250ms ease;
+}
+
+/* nightstand */
+
+#scene3 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#stereo {
+    position: absolute;
+    top: 126px;
+    left: 234px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#stereo:hover {
+    top: 126px;
+    left: 234px;
+    opacity: 1;
+}
+
+#plate {
+    position: absolute;
+    top: 252px;
+    left: 65px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#plate:hover {
+    top: 252px;
+    left: 65px;
+    opacity: 1;
+}
+
+#shakers {
+    position: absolute;
+    top: 559px;
+    left: 451px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#shakers:hover {
+    top: 559px;
+    left: 451px;
+    opacity: 1;
+}
+
+#matches {
+    position: absolute;
+    top: 178px;
+    left: 308px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#matches:hover {
+    top: 178px;
+    left: 308px;
+    opacity: 1;
+}
+
+#saucer {
+    position: absolute;
+    top: 158px;
+    left: 594px;
+    opacity: 0;
+    transition: 150ms ease;
+}
+
+#saucer:hover {
+    top: 158px;
+    left: 594px;
+    opacity: 1;
+}
+
+#stereohov .infobox {
+    position: absolute;
+    top: 225px;
+    left: 870px;
+}
+
+#platehov .infobox {
+    position: absolute;
+    top: 250px;
+    left: 475px;
+}
+
+#shakershov .infobox {
+    position: absolute;
+    top: 320px;
+    left: 650px;
+}
+
+#matcheshov .infobox {
+    position: absolute;
+    top: 200px;
+    left: 620px;
+}
+
+#saucerhov .infobox {
+    position: absolute;
+    top: 125px;
+    left: 250px;
+}
+
+.returnbdrm {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(219, 194, 161);
+    color: rgb(31, 26, 24);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transition: 250ms ease;
+}
+
+.returnbdrm:hover {
+    background-color: rgb(31, 26, 24);
+    color: rgb(219, 194, 161);
+    transition: 250ms ease;
+}
+
+/* painting */
+
+#scene4 {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.returnbdrm {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(219, 194, 161);
+    color: rgb(31, 26, 24);
+    padding: 5px 15px 5px 15px;
+    border-radius: 5px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    transition: 250ms ease;
+}
+
+#returnbdrm:hover {
+    background-color: rgb(31, 26, 24);
+    color: rgb(219, 194, 161);
+    transition: 250ms ease;
+}

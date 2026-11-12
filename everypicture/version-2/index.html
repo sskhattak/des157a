@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Every Picture</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400..700;1,400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=UnifrakturCook:wght@700&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Those Before Me</h1>
+        <h2>A visual walkthrough of what it means to hold onto distant past</h2>
+    </header>
+
+    <main>
+
+        <section id="scene1" class="showingentry">
+
+            <img id="entry" src="images/entry.jpg" alt="entry of room photo" width="1200" height="750">
+
+            <p id="entrytext">Why do secondhand objects seem to have a soul of their own? Why do these objects seem to draw me in, accentuating my life, as opposed to buying something new to breathe fresh life into?<br>.<br>.<br>.<br>Wouldn't you like to know more of the relics of a time now past, understand their worth to me, and what they can mean to you?</p>
+
+            <button id="entrybtn">Enter here.</button>
+
+        </section>
+
+        <section id="scene2" class="hidden">
+
+            <img id="bdrm" src="images/bedroom.jpg" alt="bedroom scene" width="1221" height="919">
+            <img id="glider" src="images/gliderhov.png" alt="glider chair" width="816" height="863">
+            <img id="nightstand" src="images/nightstandhov.png" alt="nightstand" width="486" height="614">
+            <img id="painting" src="images/paintinghov.png" alt="oil painting" width="335" height="271">
+
+            <section id="gliderhov" class="hidden">
+                <div class="infobox">
+                    <h3>Glider chair (c. 1970s)</h3>
+                    <p>I picked up this glider alongside the nightstand from an estate sale. Sitting in a glider brings a sense of comfort; we used to have one when I was little, and I distinctly recall my mother using it to rock my younger siblings to sleep. It's nice to sit in this chair when reading or using my laptop, and in a way, it seems to slow time down. The glider and ottoman actually aren't part of the same set (but seem to share a manufacturer), as I've found researching it online; however, I like the contrast of fabric. This glider has a lot of sentimental value to the woman who sold it to me; she grew up with it in her home, and I hope to continue keeping it in the same good condition.</p>
+
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+
+            <section id="nightstandhov" class="hidden">
+                <div class="infobox">
+                    <h3>Nightstand (c. 1930s)</h3>
+                    <p>This nightstand, picked up alongside the glider at an estate sale, fits in perfectly with the theme of the little nook I made in my room. While worn from almost a century of use, I plan to hold onto it and restore it someday when I have the right tools. I wish I knew where it was manufactured, but the spindleleg look of the legs and the rear bar (which is very unique! I've struggled to find a similar style online) has a very quaint feel.</p>
+
+                    <button id="nightstandbtn">Zoom in</button>
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+
+            <section id="paintinghov" class="hidden">
+                <div class="infobox">
+                    <h3>Oil painting (c. 1940s)</h3>
+                    <p>This oil painting was the first antique piece I've collected, and kickstarted my desire to have a small assortment to make my room feel cozier. There isn't much information online of the artist; their signature in the corner, "Wallock," brings up many results of others owning their paintings across the United States, but nothing about the person. Interestingly enough, Wallock seems to paint the same location over and over; the same lake and Spanish-style house appears in most paintings I've found. I would love to hunt down other paintings in the future, to decorate my home.</p>
+
+                    <button id="paintingbtn">Zoom in</button>
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+
+            <button id="returnbtn">← Return to hallway</button>
+
+        </section>
+
+        <section id="scene3" class="hidden">
+
+            <img id="nightstandzoom" src="images/nightstandzoom.jpg" alt="zoom in of nightstand" width="1221" height="919">
+            <img id="stereo" src="images/stereohov.png" alt="stereo player" width="879" height="620">
+            <img id="plate" src="images/platehov.png" alt="chicken cheese plate" width="410" height="374">
+            <img id="shakers" src="images/shakershov.png" alt="Spanish ceramic shakers" width="175" height="161">
+            <img id="matches" src="images/matcheshov.png" alt="matchboxes" width="294" height="169">
+            <img id="saucer" src="images/saucerhov.png" alt="saucer" width="364" height="179">
+
+            <section id="stereohov" class="hidden">
+                <div class="infobox">
+                    <h3>Sony Stereo (c. 1999)</h3>
+                    <p>I'm not sure whether my family purchased this new or got it from a garage sale, but regardless, it was in storage for a pretty long time. I recently developed an interest in keeping physical copies of albums and songs I love, so I've been using this to play music every now and then. Something about playing music from a physical player as opposed to online streaming as I've done for so long feels meditative, and the sound comes out much more vibrantly. I hope to keep this player and my CDs for a very long time; it's important to keep physical media in an era where everything digital you touch turns into a subscription.</p>
+
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+
+            <section id="platehov" class="hidden">
+                <div class="infobox">
+                    <h3>Cheese plate (c. 1990s)</h3>
+                    <p>This cheese plate with a chicken design on it, was picked up from a flea market. I love chickens a lot and was intent on buying it as soon as I saw it. Looking online, it seems to be a cheese plate for charcuterie purposes, although it's difficult to pinpoint the exact set it's from; I can only find scalloped dinner plates with the same illustration. The illustration was developed by Susan Winget, an East Coast artist who created many designs for calendars, cards, dishware, paintings, and more. her work is gorgeous; I recommend taking a look.</p>
+
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+
+            <section id="shakershov" class="hidden">
+                <div class="infobox">
+                    <h3>Ceramic shakers (c. ???)</h3>
+                    <p>The age of these Mexican salt and pepper shakers is hard to determine, and the seller at the flea market I got it from wasn't sure about its origins either. The name "Puerto Vallarta" is written on both, which is a location in Mexico, so this is likely a tourist souvenir? However, I can't find an exact version online (only a handful of pottery with the same style), so it must not have been mass-produced. I'm still too scared to use them but I've been happy keeping them as a decor piece in my room for now.</p>
+
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+
+            <section id="matcheshov" class="hidden">
+                <div class="infobox">
+                    <h3>Matchboxes (c. ???)</h3>
+                    <p>These are matchboxes from businesses that kind of just appeared in my collection; I'm not sure of the age either but they're very likely to be from before the 1980s. Matchboxes were a strong point of advertisement, especially when smoking cigarettes was still very popular, as someone who smoked would carry one around in their pocket and show off the brand when taking it out. Business matchbooks and matchboxes began to fizzle out as a result of both shifts in consumer habits (decline in smoking, indoor smoking bans, etc.) as well as the fact that other forms of advertisement and merchandise were more profitable. That being said, I love keeping these due to their neat designs.</p>
+
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+
+            <section id="saucerhov" class="hidden">
+                <div class="infobox">
+                    <h3>Saucer (c. 1930s)</h3>
+                    <p>Honestly, I'm not big on floral designs or china/porcelain wares. This was an impulse buy at Community Mercantile while I was in search of a spoon rest for the kitchen. Finding out it was an antique item from one of the employees spurred my decision to purchase it for a couple bucks, and while it doesn't work well as a spoon rest (too deep), I like keeping it as a decor piece and occasionally using it for my tea if I drink it in my room. This saucer is from the <i>English Bouquet</i> set designed by Johnson Brothers, a British tableware manufacturer. Seemingly, they're the company behind the "semi-porcelain" material used in a lot of dishware produced to this day, which has the appearance of china but durability of true stoneware. Semi-porcelain is also what this saucer is made of. One day I may find the matching teacup for the set.</p>
+
+                    <button class="exitbox">Close</button>
+                </div>
+            </section>
+            
+            <button class="returnbdrm">← Go back</button>
+
+        </section>
+
+        <section id="scene4" class="hidden">
+
+            <img id="oilzoom" src="images/paintingzoom.jpg" alt="zoom in of oil painting" width="1110" height="919">
+
+            <button class="returnbdrm">← Go back</button>
+
+        </section>
+
+    </main>
+    
+</body>
+
+</html>
