@@ -18,7 +18,7 @@ main {
 
 h1 {
     font-family: "UnifrakturCook", serif;
-    font-size: 60px;
+    font-size: 48px;
     color: rgb(219, 194, 161);
     text-align: center;
     margin-bottom: 0;
@@ -26,7 +26,7 @@ h1 {
 
 h2 { 
     font-family: "Cuprum", sans-serif;
-    font-size: 24px;
+    font-size: 20px;
     color: rgb(219, 194, 161);
     text-align: center;
     margin-top: 0;

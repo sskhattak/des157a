@@ -3,7 +3,6 @@
     console.log('reading js');
 
     const sections = document.querySelectorAll('section');
-    const closeBox = document.querySelectorAll('.exitbox');
 
     /* 
     /s0: entry
