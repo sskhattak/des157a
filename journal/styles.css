@@ -52,18 +52,19 @@ main {
     border-style: solid;
 }
 
-button {
+div {
     background-color: #FFF7F3;
     color: #6B1317;
     font-family: "Montserrat", sans-serif;
     font-size: 16px;
+    width: fit-content;
     padding: 5px 10px 5px 10px;
     border: solid 2px #6B1317;
     border-radius: 10px;
     transition: 250ms ease;
 }
 
-button:hover {
+div:hover {
     background-color: #6B1317;
     color: #FFF7F3;
 }
