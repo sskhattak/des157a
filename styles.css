@@ -102,6 +102,12 @@ footer {
 
 footer p, footer a {
     color: #FFF7F3;
+    font-size: 18px;
+}
+
+footer a {
+    font-size: 16px;
+    text-decoration: underline;
 }
 
 
